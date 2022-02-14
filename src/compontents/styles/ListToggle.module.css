@@ -1,0 +1,29 @@
+/* checkbox styling  */
+
+.container {
+  position: relative;
+  
+  width: 50px;
+}
+
+.container label {
+  background-image: url("./img/Arrow-down.svg.png");
+  background-repeat: no-repeat;
+  background-size: 30px 15px;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  top: -40px;
+  height: 28px;
+  width: 28px;
+  margin-left: 10px;
+  opacity: 0.3;
+}
+
+.container input {
+  visibility: hidden;
+}
+
+.container input:checked + label {
+  opacity: 0.7;
+}
