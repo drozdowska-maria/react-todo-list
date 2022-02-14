@@ -1,6 +1,5 @@
 import { Header } from "./compontents/Header";
 import { Filter } from "./compontents/Filter";
-import { Task } from "./compontents/Task";
 import styled from "styled-components";
 import { TaskList } from "./compontents/TaskList";
 import { useState, useRef } from "react";

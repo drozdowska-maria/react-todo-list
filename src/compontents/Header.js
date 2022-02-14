@@ -1,10 +1,7 @@
 import React from "react";
 import styles from "./styles/Form.module.css";
-import { useState, useRef } from "react";
 
-export const Header = ({ onSubmit, task, onTaskChange, taskRef,  }) => {
-
-  
+export const Header = ({ onSubmit, task, onTaskChange, taskRef }) => {
   return (
     <>
       <form onSubmit={onSubmit}>

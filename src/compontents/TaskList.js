@@ -1,8 +1,5 @@
 import { Task } from "./Task";
 import { ListToggle } from "./ListToggle";
-import { nanoid } from "nanoid";
-import { useState } from "react";
-import { useEffect } from "react";
 
 export const TaskList = ({ taskList, setTaskList, filter }) => {
   const handleDelete = (id) => {
